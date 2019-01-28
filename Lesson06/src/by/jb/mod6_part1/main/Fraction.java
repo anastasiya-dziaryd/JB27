@@ -14,7 +14,6 @@ public class Fraction {
 		} else this.den = den;
 	}
 	
-	
 	public void setNum(int num) {
 		this.num = num;
 	}
@@ -30,10 +29,6 @@ public class Fraction {
 	public int getDen() {
 		return den;
 	}
-	public String getFraction() {
-		return (num + "/" + den);
-	}
-
 
 	@Override
 	public int hashCode() {
@@ -43,7 +38,6 @@ public class Fraction {
 		result = prime * result + num;
 		return result;
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {
@@ -61,10 +55,9 @@ public class Fraction {
 		return true;
 	}
 
-
 	@Override
 	public String toString() {
-		return "Fraction [num=" + num + ", den=" + den + "]";
+		return num + "/" + den;
 	}
 	
 	

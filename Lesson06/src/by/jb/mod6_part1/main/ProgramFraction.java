@@ -6,28 +6,25 @@ public class ProgramFraction {
 
 	public static void main(String[] args) {
 
-		String [] frArr = new String [4];
+		Fraction [] frArr = new Fraction [4];
 		
 		System.out.println("Введите числитель и знаменатель дроби: ");
-		Fraction fr0 = new Fraction(readFromConsole(), readFromConsole());
-		frArr[0] = fr0.getFraction();
+		frArr[0] = new Fraction(readFromConsole(), readFromConsole());
 		
 		System.out.println("Введите числитель и знаменатель дроби: ");
-		Fraction fr1 = new Fraction(readFromConsole(), readFromConsole());
-		frArr[1] = fr1.getFraction();
+		frArr[1] = new Fraction(readFromConsole(), readFromConsole());
 		
 		System.out.println("Введите числитель и знаменатель дроби: ");
-		Fraction fr2 = new Fraction(readFromConsole(), readFromConsole());
-		frArr[2] = fr2.getFraction();
+		frArr[2] = new Fraction(readFromConsole(), readFromConsole());
 		
 		System.out.println("Введите числитель и знаменатель дроби: ");
-		Fraction fr3 = new Fraction(readFromConsole(), readFromConsole());
-		frArr[3] = fr3.getFraction();
+		frArr[3] = new Fraction(readFromConsole(), readFromConsole());
+	
 		
 		printArray(frArr);
 		
 	}		
-		public static void printArray (String[] arr) {
+		public static void printArray (Fraction[] arr) {
 			System.out.print("[ ");
 			for (int i = 0; i < arr.length; i++) {
 				System.out.print(arr[i] + " ");
