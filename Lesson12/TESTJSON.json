@@ -1,0 +1,9 @@
+{
+	"books":[
+		{"title": "The Great Gatsby", "author":"F. Scott Fitzgerald", "price":47.0, "publishingYear": 2008},
+		{"title": "Animal Farm", "author":"George Orwell", "price":49.0, "publishingYear": 2006},
+		{"title": "Pride and Prejudice", "author":"Jane Austen", "price":79.0, "publishingYear": 2017},
+		{"title": "Wuthering Heights", "author":"Emily Brontë", "price":80.0, "publishingYear": 2011},
+		{"title": "Sherlock Holmes", "author":"Arthur Conan Doyle", "price":49.0, "publishingYear": 2018}
+	]
+}
